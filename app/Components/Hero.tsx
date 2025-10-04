@@ -8,7 +8,7 @@ export default function Hero() {
       <div className=" relative h-screen w-full overflow-hidden">
 
         {/* Bg */}
-        <Image src={"./images/2147796556.jpg"} alt="Big image of doctor Vasilchenko" fill  className="absolute inset-0 flip-x object-cover" ></Image>
+        <Image src={`${process.env.NEXT_PUBLIC_BASE_PATH}/images/2147796556.jpg`} alt="Big image of doctor Vasilchenko" fill  className="absolute inset-0 flip-x object-cover" ></Image>
 
         {/* Overlay */}
         <div className="absolute inset-0 bg-black/0" />

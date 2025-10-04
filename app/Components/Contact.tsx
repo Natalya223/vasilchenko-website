@@ -8,7 +8,7 @@ export default function Contact() {
   return (
     <section>
       <div className="relative">
-        <Image src="/images/blob.png" alt="An image of blue blob decoration" width={368} height={627} className="absolute left-[-50px] bottom-[-875px] rotate-180" />
+        <Image src={`${process.env.NEXT_PUBLIC_BASE_PATH}/images/blob.png`} alt="An image of blue blob decoration" width={368} height={627} className="absolute left-[-50px] bottom-[-875px] rotate-180" />
       </div>
       <PageContainer>
         <SectionHeader>Contact</SectionHeader>
