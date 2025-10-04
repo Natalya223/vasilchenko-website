@@ -9,7 +9,7 @@ export default function TestimonialCard({ name, testimonialText, rating }: { nam
       <div className="flex items-center mb-3">
         <p className="text-primary text-h6 font-medium mr-4">{name}</p>
         <FaStar size={17} className="text-highlight mr-1"></FaStar>
-        <p className="text-highlight text-xs font-medium">5.0</p>
+        <p className="text-highlight text-xs font-medium">{rating}</p>
       </div>
       <p className="text-primary">{testimonialText}</p>
     </div>

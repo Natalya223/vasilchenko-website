@@ -1,3 +1,4 @@
+import Link from "next/link";
 import NavButton from "./NavButton";
 import PageContainer from "./PageContainer";
 import SectionHeader from "./SectionHeader";
@@ -16,8 +17,8 @@ export default function Contact() {
             <div>
               <ul>
                 <li><p className="text-h6 mb-2 font-medium">Navigation</p></li>
-                <li><a href="/">About</a></li>
-                <li><a href="/">Research</a></li>
+                <li><Link href={"/"}></Link>About</li>
+                <li><Link href={"/"}></Link>Research</li>
               </ul>
             </div>
             <div>

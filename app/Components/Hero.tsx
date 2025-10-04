@@ -1,5 +1,4 @@
 import NavButton from "./NavButton";
-import Image from "next/image";
 import PageContainer from "./PageContainer";
 
 export default function Hero() {

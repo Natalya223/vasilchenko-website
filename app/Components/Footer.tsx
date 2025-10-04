@@ -1,3 +1,4 @@
+import Link from "next/link";
 import PageContainer from "./PageContainer";
 
 export default function Footer() {
@@ -8,10 +9,10 @@ export default function Footer() {
           <div>
             <ul>
               <li><p className="text-h6 mb-2 font-medium">Navigation</p></li>
-              <li><a href="/">About</a></li>
-              <li><a href="/">Research</a></li>
-              <li><a href="/">Awards</a></li>
-              <li><a href="/">C.V.</a></li>
+              <li><Link href={"/"}>About</Link></li>
+              <li><Link href={"/"}>Research</Link></li>
+              <li><Link href={"/"}>Awards</Link></li>
+              <li><Link href={"/"}>C.V.</Link></li>
             </ul>
           </div>
           <div>
