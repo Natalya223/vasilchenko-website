@@ -4,26 +4,28 @@ import PageContainer from "./PageContainer";
 
 export default function Hero() {
   return (
-    <div className=" relative h-screen w-full overflow-hidden">
+    <section>
+      <div className=" relative h-screen w-full overflow-hidden">
 
-      {/* Bg */}
-      <img src="/images/2147796556.jpg" className="absolute inset-0 w-full h-full object-cover flip-x" alt="background doctor image" />
+        {/* Bg */}
+        <img src="/images/2147796556.jpg" className="absolute inset-0 w-full h-full object-cover flip-x" alt="background doctor image" />
 
-      {/* Overlay */}
-      <div className="absolute inset-0 bg-black/0" />
+        {/* Overlay */}
+        <div className="absolute inset-0 bg-black/0" />
 
-      {/* Gradient */}
-      <div className="absolute inset-0 bg-gradient-to-r from-primary to-transparent" />
+        {/* Gradient */}
+        <div className="absolute inset-0 bg-gradient-to-r from-primary to-transparent" />
 
-      <PageContainer style="relative h-full">
-        <div className="flex items-center h-full">
-          <div>
-            <h1 className="text-h1 font-bold text-background">Dr. Vasilchenko</h1>
-            <p className="mb-16 max-w-[50ch] text-background">Providing compassionate care and advanced treatments to help patients live healthier, longer lives</p>
-            <NavButton href="/">Book an appointment</NavButton>
+        <PageContainer style="relative h-full">
+          <div className="flex items-center h-full">
+            <div>
+              <h1 className="text-h1 font-bold text-background">Dr. Vasilchenko</h1>
+              <p className="mb-16 max-w-[50ch] text-background">Providing compassionate care and advanced treatments to help patients live healthier, longer lives</p>
+              <NavButton href="https://healthcity.kz/doctors-list/vasilcenko-natalia-vladimirovna">Book an appointment</NavButton>
+            </div>
           </div>
-        </div>
-      </PageContainer>
-    </div>
+        </PageContainer>
+      </div>
+    </section>
   );
 }

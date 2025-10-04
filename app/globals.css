@@ -6,6 +6,7 @@
   --primary: #2E5D9F;
   --h1: 5.61rem;
   --h2: 4.209rem;
+  --h4: 2.369rem;
   --h5: 1.777rem;
   --h6: 1.333rem;
 }
@@ -17,9 +18,9 @@
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
   --font-poppins: var(--font-poppins);
-  --font-merriweather: var(--font-merriweather);
   --text-h1: var(--h1);
   --text-h2: var(--h2);
+  --text-h4: var(--h4);
   --text-h5: var(--h5);
   --text-h6: var(--h6);
 }
