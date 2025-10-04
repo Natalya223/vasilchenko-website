@@ -4,11 +4,13 @@ import PageContainer from "./PageContainer";
 import SectionHeader from "./SectionHeader";
 import Image from "next/image";
 
+const basePath = process.env.NODE_ENV === 'production' ? '/vasilchenko-website' : '';
+
 export default function Contact() {
   return (
     <section>
       <div className="relative">
-        <Image src={`${process.env.NEXT_PUBLIC_BASE_PATH}/images/blob.png`} alt="An image of blue blob decoration" width={368} height={627} className="absolute left-[-50px] bottom-[-875px] rotate-180" />
+        <Image src={`${basePath}/images/blob.png`} alt="An image of blue blob decoration" width={368} height={627} className="absolute left-[-50px] bottom-[-875px] rotate-180" />
       </div>
       <PageContainer>
         <SectionHeader>Contact</SectionHeader>

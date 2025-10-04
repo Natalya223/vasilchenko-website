@@ -1,6 +1,8 @@
 import PageContainer from "./PageContainer";
 import Image from "next/image";
 
+const basePath = process.env.NODE_ENV === 'production' ? '/vasilchenko-website' : '';
+
 export default function About() {
   return (
     <section>
@@ -28,7 +30,7 @@ export default function About() {
                 </div>
               </div>
               <div className="flex justify-end">
-                <Image src={`${process.env.NEXT_PUBLIC_BASE_PATH}/images/doctor1.jpg`} alt="An image of doctor Vasilchenko" width={420} height={620} className="rounded-2xl object-cover min-h-[620px]"></Image>
+                <Image src={`${basePath}/images/doctor1.jpg`} alt="An image of doctor Vasilchenko" width={420} height={620} className="rounded-2xl object-cover min-h-[620px]"></Image>
               </div>
             </div>
           </PageContainer>
