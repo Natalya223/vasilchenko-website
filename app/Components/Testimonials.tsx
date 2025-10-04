@@ -5,6 +5,9 @@ import TestimonialCard from "./TestimonialCard";
 export default function Testimonials() {
   return (
     <section>
+      <div className="relative">
+        <img src="/images/blob.png" alt="blob" className="absolute right-[-50px] top-[-225px]" />
+      </div>
       <PageContainer>
         <SectionHeader>Testimonials</SectionHeader>
         <div className="grid grid-cols-4 gap-6 mt-44">

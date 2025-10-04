@@ -1,4 +1,4 @@
-import { FaUser } from "react-icons/fa6";
+import { FaUser, FaStar } from "react-icons/fa6";
 
 export default function TestimonialCard({ name, testimonialText, rating }: { name: string, testimonialText: string, rating: number }) {
   return (
@@ -6,7 +6,11 @@ export default function TestimonialCard({ name, testimonialText, rating }: { nam
       <div className="absolute top-[-48px] left-1/2 -translate-x-1/2 flex justify-center items-center w-24 h-24 bg-primary rounded-full">
         <FaUser size={38} className="text-background"></FaUser>
       </div>
-      <p className="text-primary text-h6 font-medium mb-3">{name}</p>
+      <div className="flex items-center mb-3">
+        <p className="text-primary text-h6 font-medium mr-4">{name}</p>
+        <FaStar size={17} className="text-highlight mr-1"></FaStar>
+        <p className="text-highlight text-xs font-medium">5.0</p>
+      </div>
       <p className="text-primary">{testimonialText}</p>
     </div>
   );
