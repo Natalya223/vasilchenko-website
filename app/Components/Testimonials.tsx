@@ -1,12 +1,13 @@
 import PageContainer from "./PageContainer";
 import SectionHeader from "./SectionHeader";
 import TestimonialCard from "./TestimonialCard";
+import Image from "next/image";
 
 export default function Testimonials() {
   return (
     <section>
       <div className="relative">
-        <img src="/images/blob.png" alt="blob" className="absolute right-[-50px] top-[-225px]" />
+        <Image src="/images/blob.png" alt="An image of blue blob decoration" width={368} height={627} className="absolute right-0 top-[-225px] overflow-x-hidden"/>
       </div>
       <PageContainer>
         <SectionHeader>Testimonials</SectionHeader>

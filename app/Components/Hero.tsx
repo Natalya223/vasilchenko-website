@@ -1,5 +1,6 @@
 import NavButton from "./NavButton";
 import PageContainer from "./PageContainer";
+import Image from "next/image";
 
 export default function Hero() {
   return (
@@ -7,7 +8,7 @@ export default function Hero() {
       <div className=" relative h-screen w-full overflow-hidden">
 
         {/* Bg */}
-        <img src="/images/2147796556.jpg" className="absolute inset-0 w-full h-full object-cover flip-x" alt="background doctor image" />
+        <Image src={"/images/2147796556.jpg"} alt="Big image of doctor Vasilchenko" fill  className="absolute inset-0 flip-x object-cover" ></Image>
 
         {/* Overlay */}
         <div className="absolute inset-0 bg-black/0" />

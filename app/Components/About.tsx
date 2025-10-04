@@ -1,5 +1,5 @@
 import PageContainer from "./PageContainer";
-import SectionHeader from "./SectionHeader";
+import Image from "next/image";
 
 export default function About() {
   return (
@@ -28,7 +28,7 @@ export default function About() {
                 </div>
               </div>
               <div className="flex justify-end">
-                <img src="/images/doctor1.jpg" className="rounded-2xl max-w-[420px] min-h-[620px] object-cover" alt="Doctor image" />
+                <Image src={"/images/doctor1.jpg"} alt="An image of doctor Vasilchenko" width={420} height={620} className="rounded-2xl object-cover min-h-[620px]"></Image>
               </div>
             </div>
           </PageContainer>

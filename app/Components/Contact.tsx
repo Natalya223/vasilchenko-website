@@ -2,12 +2,13 @@ import Link from "next/link";
 import NavButton from "./NavButton";
 import PageContainer from "./PageContainer";
 import SectionHeader from "./SectionHeader";
+import Image from "next/image";
 
 export default function Contact() {
   return (
     <section>
       <div className="relative">
-        <img src="/images/blob.png" alt="blob" className="absolute left-[-50px] bottom-[-875px] rotate-180" />
+        <Image src="/images/blob.png" alt="An image of blue blob decoration" width={368} height={627} className="absolute left-[-50px] bottom-[-875px] rotate-180" />
       </div>
       <PageContainer>
         <SectionHeader>Contact</SectionHeader>
