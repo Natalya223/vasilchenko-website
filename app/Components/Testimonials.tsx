@@ -9,17 +9,17 @@ export default function Testimonials() {
   return (
     <section>
       <div className="relative">
-        <Image src={`${basePath}/images/blob.png`} alt="An image of blue blob decoration" width={368} height={627} className="absolute right-0 top-[-225px] overflow-x-hidden"/>
+        <Image src={`${basePath}/images/blob.png`} alt="An image of blue blob decoration" width={368} height={627} className="absolute right-0 top-[-225px] -z-1" />
+        <PageContainer style="z-1">
+          <SectionHeader>Testimonials</SectionHeader>
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-x-6 gap-y-18 mt-22 sm:mt-44">
+            <TestimonialCard name="John Smith" testimonialText="Great gastroenterological service. Had my gastritis cured. Great professional overall. Pretty cool" rating={5} />
+            <TestimonialCard name="Jane Smith" testimonialText="Great gastroenterological service. Had my gastritis cured. Great professional overall. Pretty cool" rating={5} />
+            <TestimonialCard name="James Smith" testimonialText="Great gastroenterological service. Had my gastritis cured. Great professional overall. Pretty cool" rating={5} />
+            <TestimonialCard name="Dean Smith" testimonialText="Great gastroenterological service. Had my gastritis cured. Great professional overall. Pretty cool" rating={5} />
+          </div>
+        </PageContainer>
       </div>
-      <PageContainer>
-        <SectionHeader>Testimonials</SectionHeader>
-        <div className="grid grid-cols-4 gap-6 mt-44">
-          <TestimonialCard name="John Smith" testimonialText="Great gastroenterological service. Had my gastritis cured. Great professional overall. Pretty cool" rating={5} />
-          <TestimonialCard name="Jane Smith" testimonialText="Great gastroenterological service. Had my gastritis cured. Great professional overall. Pretty cool" rating={5} />
-          <TestimonialCard name="James Smith" testimonialText="Great gastroenterological service. Had my gastritis cured. Great professional overall. Pretty cool" rating={5} />
-          <TestimonialCard name="Dean Smith" testimonialText="Great gastroenterological service. Had my gastritis cured. Great professional overall. Pretty cool" rating={5} />
-        </div>
-      </PageContainer>
     </section>
   );
 }

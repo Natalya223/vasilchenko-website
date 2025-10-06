@@ -9,8 +9,8 @@ export default function About() {
       <div className="relative">
         {/* Background layer with two sections */}
         <div className="absolute inset-0 flex">
-          <div className="w-[70%] bg-primary/15"></div>
-          <div className="w-[30%]">
+          <div className="w-full sm:w-[70%] bg-primary/15"></div>
+          <div className="w-0 sm:w-[30%]">
             <div className="relative w-full h-full">
               <div className="absolute inset-0 bg-[radial-gradient(circle,_rgba(110,110,94,0.1)_8px,_transparent_8px)] [background-size:40px_40px] [background-position:0_-12px]" />
             </div>
@@ -20,7 +20,7 @@ export default function About() {
         {/* Content layer */}
         <div className="relative py-10">
           <PageContainer>
-            <div className="grid grid-cols-2">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
               <div className="flex items-center">
                 <div>
                   <h5 className="text-h4 font-semibold mb-6">Natalia Vasilchenko</h5>
@@ -30,7 +30,7 @@ export default function About() {
                 </div>
               </div>
               <div className="flex justify-end">
-                <Image src={`${basePath}/images/doctor1.jpg`} alt="An image of doctor Vasilchenko" width={420} height={620} className="rounded-2xl object-cover min-h-[620px]"></Image>
+                <Image src={`${basePath}/images/doctor1.jpg`} alt="An image of doctor Vasilchenko" width={420} height={620} className="rounded-2xl object-cover w-full sm:max-w-[420px] min-h-[620px]"></Image>
               </div>
             </div>
           </PageContainer>

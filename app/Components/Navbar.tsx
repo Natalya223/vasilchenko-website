@@ -29,12 +29,12 @@ export default function Navbar() {
     <header className={`fixed w-full z-1 ${isOnTop ? "text-background" : "bg-background text-foreground"}`}>
       <PageContainer>
         <nav className="">
-          <ul className="min-h-20 flex items-center gap-36">
-            <li className="grow"><Link href={"/"} className="text-h5 font-semibold">Dr. Vasilchenko</Link></li>
-            <li><Link href={"/"}>About</Link></li>
-            <li><Link href={"/"}>Testimonials</Link></li>
-            <li><Link href={"/"}>Contact</Link></li>
-            <li><Link href={"/"}>C.V.</Link></li>
+          <ul className="min-h-20 flex items-center gap-32">
+            <li className="grow"><Link href={"/"} className="text-h5 font-semibold whitespace-nowrap">Dr. Vasilchenko</Link></li>
+            <li className="hidden lg:list-item"><Link href={"/"}>About</Link></li>
+            <li className="hidden lg:list-item"><Link href={"/"}>Testimonials</Link></li>
+            <li className="hidden lg:list-item"><Link href={"/"}>Contact</Link></li>
+            <li className="hidden lg:list-item"><Link href={"/"}>C.V.</Link></li>
           </ul>
         </nav>
       </PageContainer>

@@ -8,7 +8,7 @@ export default function Experience() {
     <section>
       <PageContainer>
         <SectionHeader>About Me</SectionHeader>
-        <div className="grid grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-6">
           <ExperienceCard headerText="Experience" contentText="25+ years in cardiovascular medicine, treating thousands of patients worldwide">
             <FaUserDoctor size={38} className="text-background" />
           </ExperienceCard>
@@ -16,10 +16,10 @@ export default function Experience() {
             <FaMicroscope size={38} className="text-background" />
           </ExperienceCard>
           <ExperienceCard headerText="Education" contentText="Harvard Medical School alumnus, advanced training in interventional cardiology">
-            <FaGraduationCap size={42} className="text-background" />
+            <FaGraduationCap size={38} className="text-background" />
           </ExperienceCard>
           <ExperienceCard headerText="Awards" contentText="Recipient of the National Award for Excellence in Cardiology (2022)">
-            <FaMedal size={42} className="text-background" />
+            <FaMedal size={38} className="text-background" />
           </ExperienceCard>
         </div>
       </PageContainer>

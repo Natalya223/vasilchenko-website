@@ -36,9 +36,8 @@ export default function Footer() {
           </div>
         </div>
       </PageContainer>
-      <div className="flex justify-center pb-2">
-        <p className="text-xs">Natalia Vasilchenko © {new Date().getFullYear()} • Designed by Yaroslav Stupkov</p>
-      </div>
+      <p className="text-xs text-center">Natalia Vasilchenko © {new Date().getFullYear()}</p>
+      <p className="text-xs text-center pb-2">Designed by Yaroslav Stupkov</p>
     </footer>
   );
 }

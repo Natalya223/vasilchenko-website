@@ -2,8 +2,8 @@ import { FaUser, FaStar } from "react-icons/fa6";
 
 export default function TestimonialCard({ name, testimonialText, rating }: { name: string, testimonialText: string, rating: number }) {
   return (
-    <div className="relative rounded-2xl shadow-[0px_5px_20px_1px] shadow-primary/15 p-6 pt-18 min-h-64">
-      <div className="absolute top-[-48px] left-1/2 -translate-x-1/2 flex justify-center items-center w-24 h-24 bg-primary rounded-full">
+    <div className="relative rounded-2xl shadow-[0px_5px_20px_1px] shadow-primary/15 p-6 pt-18 min-h-64 bg-background">
+      <div className="absolute top-[-48px] left-1/2 -translate-x-1/2 bg-primary rounded-full p-7.25">
         <FaUser size={38} className="text-background"></FaUser>
       </div>
       <div className="flex items-center mb-3">

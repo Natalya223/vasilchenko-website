@@ -21,9 +21,11 @@ export default function Hero() {
         <PageContainer style="relative h-full">
           <div className="flex items-center h-full">
             <div>
-              <h1 className="text-h1 font-bold text-background">Dr. Vasilchenko</h1>
-              <p className="mb-16 max-w-[50ch] text-background">Providing compassionate care and advanced treatments to help patients live healthier, longer lives</p>
-              <NavButton href="https://healthcity.kz/doctors-list/vasilcenko-natalia-vladimirovna">Book an appointment</NavButton>
+              <h1 className="text-h5 sm:text-h2 md:text-h1 text-center sm:text-start font-bold text-background mb-4 md:mb-2 sm:mb-0 whitespace-nowrap">Dr. Vasilchenko</h1>
+              <p className="mb-12 sm:mb-16 max-w-[50ch] text-background text-center sm:text-start">Providing compassionate care and advanced treatments to help patients live healthier, longer lives</p>
+              <div className="flex justify-center sm:block">
+                <NavButton href="https://healthcity.kz/doctors-list/vasilcenko-natalia-vladimirovna">Book an appointment</NavButton>
+              </div>
             </div>
           </div>
         </PageContainer>
