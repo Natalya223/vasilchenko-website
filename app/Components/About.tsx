@@ -30,7 +30,7 @@ export default function About() {
                 </div>
               </div>
               <div className="flex justify-end">
-                <Image src={`${basePath}/images/doctor1.jpg`} alt="An image of doctor Vasilchenko" width={420} height={620} className="rounded-2xl object-cover w-full sm:max-w-[420px] min-h-[620px]"></Image>
+                <Image src={`${basePath}/images/photo2.jpeg`} alt="An image of doctor Vasilchenko" width={420} height={620} className="rounded-2xl object-cover w-full sm:max-w-[420px] min-h-[620px]"></Image>
               </div>
             </div>
           </PageContainer>
