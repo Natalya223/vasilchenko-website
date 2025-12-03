@@ -5,7 +5,7 @@ const basePath = process.env.NODE_ENV === 'production' ? '/vasilchenko-website' 
 
 export default function About() {
   return (
-    <section>
+    <section id="about">
       <div className="relative">
         {/* Background layer with two sections */}
         <div className="absolute inset-0 flex">
@@ -24,9 +24,9 @@ export default function About() {
               <div className="flex items-center">
                 <div>
                   <h5 className="text-h4 font-semibold mb-6">Natalia Vasilchenko</h5>
-                  <p className="max-w-[50ch]">I am an MD, PhD pediatrician, gastroenterologist, and allergist of the highest category with extensive clinical experience. My primary specialization is the diagnosis and treatment of gastrointestinal and allergic diseases in children.
-                    Throughout my career, I have placed strong emphasis on a comprehensive approach that combines treatment with prevention, aiming to ensure long-term health outcomes for young patients.
-                    I hold a medical degree in Pediatrics from the Almaty State Medical Institute and have completed advanced training and professional development at leading medical centers in Kazakhstan, Russia, and Europe, including Saint Petersburg, Moscow, and Almaty. This academic foundation, combined with years of clinical practice, allows me to apply modern, evidence-based methods in pediatrics, gastroenterology, and allergology</p>
+                  <p className="max-w-[50ch]">Dr. Natalia Vasilchenko is an <b>experienced pediatrician, gastroenterologist and allergist</b> with more than <b>20 years</b> of clinical practice. She specializes in the diagnosis and treatment of gastrointestinal and allergic disorders in children from infancy through adolescence, using modern, evidence-based approaches and comprehensive preventive care.
+                    Her professional achievements include the <b>Hippocrates Order</b>, the <b>Altyn Dariger</b> award, and the <b>Doctor of the Year</b> award by Consilium Medicum journal. She is also a <b>member of the National Medical Association</b>, reflecting her active involvement in the medical community and commitment to clinical excellence.
+                    Dr. Vasilchenko focuses on accurate diagnostics, long-term treatment strategies, and a personalized, child-centered approach, helping families navigate <b>complex pediatric conditions</b> with confidence and clarity</p>
                 </div>
               </div>
               <div className="flex justify-end">

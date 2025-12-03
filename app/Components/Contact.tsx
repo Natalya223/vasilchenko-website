@@ -8,7 +8,7 @@ const basePath = process.env.NODE_ENV === 'production' ? '/vasilchenko-website' 
 
 export default function Contact() {
   return (
-    <section>
+    <section id="contact">
       <div className="relative">
         <Image src={`${basePath}/images/blob.png`} alt="An image of blue blob decoration" width={368} height={627} className="absolute left-[-50px] bottom-[-400px] rotate-180 -z-1" />
         <PageContainer style="z-1">
@@ -18,22 +18,20 @@ export default function Contact() {
             <div className="grid grid-cols-2 gap-6">
               <div>
                 <ul>
-                  <li><p className="text-h6 mb-2 font-medium">Navigation</p></li>
-                  <li><Link href={"/"}></Link>About</li>
-                  <li><Link href={"/"}></Link>Research</li>
-                </ul>
-              </div>
-              <div>
-                <ul>
                   <li><p className="text-h6 mb-2 font-medium">Address</p></li>
                   <li><p>ул. Мусабаева, д. 8, г. Алматы, Казахстан</p></li>
                 </ul>
               </div>
               <div>
                 <ul>
-                  <li><p className="text-h6 mb-2 font-medium">Contact</p></li>
-                  <li><p>8 800 555 35 35</p></li>
-                  <li><p>example@gmail.com</p></li>
+                  <li><p className="text-h6 mb-2 font-medium">Phone number</p></li>
+                  <li><p>+7 (706) 698 55 68</p></li>
+                </ul>
+              </div>
+              <div>
+                <ul>
+                  <li><p className="text-h6 mb-2 font-medium">E-mail</p></li>
+                  <li><p>nonevasilchenko@gmail.com</p></li>
                 </ul>
               </div>
               <div>

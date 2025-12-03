@@ -4,7 +4,6 @@ import Experience from "./Components/Experience";
 import Footer from "./Components/Footer";
 import Hero from "./Components/Hero";
 import Navbar from "./Components/Navbar";
-import Research from "./Components/Research";
 import SectionSeparator from "./Components/SectionSeparator";
 import Testimonials from "./Components/Testimonials";
 
@@ -17,8 +16,6 @@ export default function Home() {
       <Experience />
       <SectionSeparator small={true} />
       <About />
-      <SectionSeparator />
-      <Research />
       <SectionSeparator />
       <Testimonials />
       <SectionSeparator />

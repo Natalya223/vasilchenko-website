@@ -31,10 +31,10 @@ export default function Navbar() {
         <nav className="">
           <ul className="min-h-20 flex items-center gap-32">
             <li className="grow"><Link href={"/"} className="text-h5 font-semibold whitespace-nowrap">Dr. Vasilchenko</Link></li>
-            <li className="hidden lg:list-item"><Link href={"/"}>About</Link></li>
-            <li className="hidden lg:list-item"><Link href={"/"}>Testimonials</Link></li>
-            <li className="hidden lg:list-item"><Link href={"/"}>Contact</Link></li>
-            <li className="hidden lg:list-item"><Link href={"/"}>C.V.</Link></li>
+            <li className="hidden font-medium lg:list-item"><Link href={"#about"} className="relative inline-block after:absolute after:left-0 after:bottom-0 after:h-[2px] after:w-0 after:bg-primary after:transition-all after:duration-200 hover:after:w-full">About</Link></li>
+            <li className="hidden font-medium lg:list-item"><Link href={"#testimonials"} className="relative inline-block after:absolute after:left-0 after:bottom-0 after:h-[2px] after:w-0 after:bg-primary after:transition-all after:duration-200 hover:after:w-full">Testimonials</Link></li>
+            <li className="hidden font-medium lg:list-item"><Link href={"#contact"} className="relative inline-block after:absolute after:left-0 after:bottom-0 after:h-[2px] after:w-0 after:bg-primary after:transition-all after:duration-200 hover:after:w-full">Contact</Link></li>
+            <li className="hidden font-medium lg:list-item"><Link href={"/"} className="relative inline-block after:absolute after:left-0 after:bottom-0 after:h-[2px] after:w-0 after:bg-primary after:transition-all after:duration-200 hover:after:w-full">C.V.</Link></li>                     
           </ul>
         </nav>
       </PageContainer>

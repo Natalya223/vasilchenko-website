@@ -7,7 +7,7 @@ const basePath = process.env.NODE_ENV === 'production' ? '/vasilchenko-website' 
 
 export default function Testimonials() {
   return (
-    <section>
+    <section id="testimonials">
       <div className="relative">
         <Image src={`${basePath}/images/blob.png`} alt="An image of blue blob decoration" width={368} height={627} className="absolute right-0 top-[-225px] -z-1" />
         <PageContainer style="z-1">

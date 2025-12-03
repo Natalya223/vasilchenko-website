@@ -9,9 +9,9 @@ export default function Footer() {
           <div>
             <ul>
               <li><p className="text-h6 mb-2 font-medium">Navigation</p></li>
-              <li><Link href={"/"}>About</Link></li>
-              <li><Link href={"/"}>Research</Link></li>
-              <li><Link href={"/"}>Awards</Link></li>
+              <li><Link href={"#about"}>About</Link></li>
+              <li><Link href={"#testimonials"}>Testimonials</Link></li>
+              <li><Link href={"#contact"}>Contact</Link></li>
               <li><Link href={"/"}>C.V.</Link></li>
             </ul>
           </div>
@@ -24,8 +24,8 @@ export default function Footer() {
           <div>
             <ul>
               <li><p className="text-h6 mb-2 font-medium">Contact</p></li>
-              <li><p>8 800 555 35 35</p></li>
-              <li><p>example@gmail.com</p></li>
+              <li><p>+7 (706) 698 55 68</p></li>
+              <li><p>nonevasilchenko@gmail.com</p></li>
             </ul>
           </div>
           <div>
