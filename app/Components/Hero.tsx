@@ -9,14 +9,14 @@ export default function Hero() {
     <section>
       <div className="relative h-screen w-full overflow-hidden">
 
+        {/* Bg */}
+        <Image src={`${basePath}/images/IMG_0233_1.jpg`} alt="Big image of doctor Vasilchenko" fill className="absolute hidden lg:block object-cover object-[center_15%]"></Image>
+        
         {/* Overlay */}
         <div className="absolute inset-0 bg-black/0" />
 
         {/* Gradient */}
         <div className="absolute inset-0 bg-gradient-to-tr from-primary to-primary/25 md:bg-gradient-to-r md:from-primary md:to-transparent" />
-
-        {/* Bg */}
-        <Image src={`${basePath}/images/photo3.png`} alt="Big image of doctor Vasilchenko" width={774*1.5} height={1032*1.5} className="absolute -right-50 -bottom-40 hidden lg:block"></Image>
 
         <PageContainer style="relative h-full">
           <div className="flex items-center h-full">
