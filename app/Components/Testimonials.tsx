@@ -3,13 +3,11 @@ import SectionHeader from "./SectionHeader";
 import TestimonialCard from "./TestimonialCard";
 import Image from "next/image";
 
-const basePath = process.env.NODE_ENV === 'production' ? '/vasilchenko-website' : '';
-
 export default function Testimonials() {
   return (
     <section id="testimonials">
       <div className="relative">
-        <Image src={`${basePath}/images/blob.png`} alt="An image of blue blob decoration" width={368} height={627} className="absolute right-0 top-[-225px] -z-1" />
+        <Image src={"/images/blob.png"} alt="An image of blue blob decoration" width={368} height={627} className="absolute right-0 top-[-225px] -z-1" />
         <PageContainer style="z-1">
           <SectionHeader>Testimonials</SectionHeader>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-x-6 gap-y-18 mt-22 sm:mt-44">

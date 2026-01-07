@@ -2,15 +2,13 @@ import NavButton from "./NavButton";
 import PageContainer from "./PageContainer";
 import Image from "next/image";
 
-const basePath = process.env.NODE_ENV === 'production' ? '/vasilchenko-website' : '';
-
 export default function Hero() {
   return (
     <section>
       <div className="relative h-screen w-full overflow-hidden">
 
         {/* Bg */}
-        <Image src={`${basePath}/images/IMG_0233_1.jpg`} alt="Big image of doctor Vasilchenko" fill className="absolute hidden lg:block object-cover object-[center_15%]"></Image>
+        <Image src={"/images/IMG_0233_1.jpg"} alt="Big image of doctor Vasilchenko" fill className="absolute hidden lg:block object-cover object-[center_15%]"></Image>
         
         {/* Overlay */}
         <div className="absolute inset-0 bg-black/0" />
