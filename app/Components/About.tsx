@@ -28,7 +28,7 @@ export default function About() {
                 </div>
               </div>
               <div className="flex justify-end">
-                <Image src={"/images/IMG_0234.jpg"} alt="An image of doctor Vasilchenko" width={853} height={1280} className="rounded-2xl object-cover w-full sm:max-w-[420px] min-h-[620px] shadow-[0px_5px_20px_1px] shadow-primary/15"></Image>
+                <Image src={"/images/IMG_0234.JPG"} alt="An image of doctor Vasilchenko" width={853} height={1280} className="rounded-2xl object-cover w-full sm:max-w-[420px] min-h-[620px] shadow-[0px_5px_20px_1px] shadow-primary/15"></Image>
               </div>
             </div>
           </PageContainer>
