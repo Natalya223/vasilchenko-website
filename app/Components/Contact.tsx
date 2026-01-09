@@ -3,6 +3,7 @@ import NavButton from "./NavButton";
 import PageContainer from "./PageContainer";
 import SectionHeader from "./SectionHeader";
 import Image from "next/image";
+import { FaArrowUpRightFromSquare } from "react-icons/fa6";
 
 export default function Contact() {
   return (
@@ -39,7 +40,9 @@ export default function Contact() {
                 </ul>
               </div>
               <div className="mt-10">
-                <NavButton href="https://healthcity.kz/doctors-list/vasilcenko-natalia-vladimirovna">Book an appointment</NavButton>
+                <NavButton href="https://healthcity.kz/doctors-list/vasilcenko-natalia-vladimirovna" icon={
+                  <FaArrowUpRightFromSquare />}>
+                  Book an appointment</NavButton>
               </div>
             </div>
           </div>

@@ -14,11 +14,11 @@ export default function Home() {
       <Hero />
       <SectionSeparator small={true} />
       <Experience />
-      <SectionSeparator small={true} />
+      <SectionSeparator />
       <About />
       <SectionSeparator />
       <Testimonials />
-      <SectionSeparator />
+      <SectionSeparator small={true} />
       <Contact />
       <SectionSeparator small={true} />
       <Footer />

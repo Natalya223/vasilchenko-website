@@ -1,20 +1,22 @@
 @import "tailwindcss";
 
 :root {
-  --background: #F7F9FB;
-  --foreground: #1E1E1E;
-  --primary: #2E5D9F;
-  --highlight: #CBA052;
-  --h1: 5.61rem;
-  --h2: 4.209rem;
-  --h3: 3.157rem;
-  --h4: 2.369rem;
-  --h5: 1.777rem;
-  --h6: 1.333rem;
+  --background: #f0f4fa;
+  --background-complementary: #F7F9FB;
+  --foreground: #0F172A;
+  --primary: #1377F7;
+  --highlight: #F79313;
+  --h1: 7.993rem;
+  --h2: 5.653rem;
+  --h3: 3.998rem;
+  --h4: 2.827rem;
+  --h5: 1.999rem;
+  --h6: 1.414rem;
 }
 
 @theme inline {
   --color-background: var(--background);
+  --color-background-complementary: var(--background-complementary);
   --color-foreground: var(--foreground);
   --color-primary: var(--primary);
   --color-highlight: var(--highlight);
@@ -31,13 +33,13 @@
 
 html {
   scroll-behavior: smooth;
-  scroll-padding-top: 5rem;
+  scroll-padding-top: 8rem;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Poppins, Arial, Helvetica, sans-serif;
+  font-family: Source_Sans_3, Arial, Helvetica, sans-serif;
 }
 
 .flip-x {
