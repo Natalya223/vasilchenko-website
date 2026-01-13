@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.doctorvassilchenko.com
+
+# Sitemaps
+Sitemap: https://www.doctorvassilchenko.com/sitemap.xml
