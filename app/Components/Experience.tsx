@@ -8,8 +8,8 @@ export default function Experience() {
   return (
     <section>
       <div className="relative overflow-x-clip">
-        <Image src={"/images/line.png"} alt="An image of blue blob decoration" width={479} height={738} className="absolute -left-18 -z-1" />
-        <Image src={"/images/line.png"} alt="An image of blue blob decoration" width={479} height={738} className="absolute -bottom-60 rotate-180 -right-18 -z-1" />
+        <Image src={"/images/line.png"} alt="An image of blue line decoration" width={479} height={738} className="absolute -left-18 -z-1 hidden sm:block" />
+        <Image src={"/images/line.png"} alt="An image of blue line decoration" width={479} height={738} className="absolute -bottom-60 rotate-180 -right-18 -z-1 hidden sm:block" />
         <PageContainer style="">
           <SectionHeader>About Me</SectionHeader>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-6">

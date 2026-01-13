@@ -7,7 +7,7 @@ export default function Testimonials() {
   return (
     <section id="testimonials">
       <div className="relative">
-        <Image src={"/images/blob.png"} alt="An image of blue blob decoration" width={368} height={627} className="absolute right-0 top-[-225px] -z-1" />
+        <Image src={"/images/blob.png"} alt="An image of blue blob decoration" width={368} height={627} className="absolute right-0 top-[-225px] -z-1 hidden sm:block" />
         <PageContainer style="z-1">
           <SectionHeader>Testimonials</SectionHeader>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-x-6 gap-y-18 mt-22 sm:mt-44">

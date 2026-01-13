@@ -6,9 +6,9 @@ import { FaPhone } from "react-icons/fa6";
 
 export default function Navbar() {
   return (
-    <header className={`fixed max-w-[1280px] inset-x-0 mx-auto mt-6 px-4 sm:px-6 lg:px-8 z-1 bg-white text-foreground rounded-full`}>
+    <header className={`fixed max-w-[1280px] inset-x-0 mx-auto lg:mt-6 px-4 sm:px-6 lg:px-8 z-1 bg-white text-foreground lg:rounded-full`}>
       <PageContainer>
-        <nav className="">
+        <nav>
           <ul className="min-h-20 flex items-center justify-center sm:justify-between gap-32">
             <li ><Link href={"/"} className="text-h5 font-semibold whitespace-nowrap text-center mx-auto">Vasilchenko N.V.</Link></li>
             <div className="hidden lg:flex items-center gap-10">

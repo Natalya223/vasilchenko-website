@@ -9,7 +9,7 @@ export default function Contact() {
   return (
     <section id="contact">
       <div className="relative">
-        <Image src={"/images/blob.png"} alt="An image of blue blob decoration" width={368} height={627} className="absolute left-[-50px] bottom-[-400px] rotate-180 -z-1" />
+        <Image src={"/images/blob.png"} alt="An image of blue blob decoration" width={368} height={627} className="absolute left-[-50px] bottom-[-400px] rotate-180 -z-1 hidden sm:block" />
         <PageContainer style="z-1">
           <SectionHeader>Contact</SectionHeader>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
@@ -39,12 +39,17 @@ export default function Contact() {
                   <li><p>9:00 - 17:00</p></li>
                 </ul>
               </div>
-              <div className="mt-10">
+              <div className="mt-10 hidden sm:block">
                 <NavButton href="https://healthcity.kz/doctors-list/vasilcenko-natalia-vladimirovna" icon={
                   <FaArrowUpRightFromSquare />}>
                   Book an appointment</NavButton>
               </div>
             </div>
+          </div>
+          <div className="mt-10 block sm:hidden">
+            <NavButton href="https://healthcity.kz/doctors-list/vasilcenko-natalia-vladimirovna" icon={
+              <FaArrowUpRightFromSquare />}>
+              Book an appointment</NavButton>
           </div>
         </PageContainer>
       </div>
