@@ -27,7 +27,7 @@ export default function Hero() {
         <PageContainer style="relative h-full">
           <div className="flex items-center h-full">
             <div>
-              <Image src={"/images/final.png"} alt="Image of Natalia Vasilchenko" width={250} height={250} className="mb-12 rounded-full lg:hidden object-cover object-right aspect-square border-2 border-primary mx-auto brightness-90"></Image>
+              <Image src={"/images/final.png"} alt="Image of Natalia Vasilchenko" width={180} height={180} className="mb-12 rounded-full lg:hidden object-cover object-right aspect-square border-2 border-primary mx-auto brightness-90 mt-20"></Image>
               <h1 className="text-h5 max-w-[10ch] leading-[100%] sm:text-h2 md:text-h1 text-center sm:text-start font-semibold mb-6 md:mb-4 sm:mb-2 mx-auto">Natalia Vasilchenko</h1>
               {/* <p className="mb-12 sm:mb-16 max-w-[50ch] text-background text-center sm:text-start">Pediatrician · Gastroenterologist · Allergist</p> */}
               <p className="mb-12 sm:mb-16 max-w-[50ch] leading-[120%] text-h6 text-center sm:text-start">Providing compassionate care and advanced treatments to help patients live healthier, longer lives</p>
