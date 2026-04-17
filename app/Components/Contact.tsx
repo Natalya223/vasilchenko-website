@@ -9,7 +9,7 @@ export default function Contact() {
   return (
     <section id="contact">
       <div className="relative">
-        <Image src={"/images/blob.png"} alt="An image of blue blob decoration" width={368} height={627} className="absolute left-[-50px] bottom-[-400px] rotate-180 -z-1 hidden sm:block" />
+        <Image src={"/images/blob.png"} alt="An image of blue blob decoration" width={368} height={627} className="absolute left-[-50px] bottom-[-400px] rotate-180 -z-1 hidden sm:block opacity-50" />
         <PageContainer style="z-1">
           <SectionHeader>Contact</SectionHeader>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">

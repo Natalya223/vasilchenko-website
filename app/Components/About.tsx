@@ -21,10 +21,10 @@ export default function About() {
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
               <div className="flex items-center">
                 <div>
-                  <h5 className="text-h4 font-semibold mb-6">Natalia Vasilchenko</h5>
-                  <p className="max-w-[50ch]">Dr. Natalia Vasilchenko is an experienced pediatrician, gastroenterologist and allergist with more than 20 years of clinical practice. She specializes in the diagnosis and treatment of gastrointestinal and allergic disorders in children from infancy through adolescence, using modern, evidence-based approaches and comprehensive preventive care.
-                    Her professional achievements include the Hippocrates Order, the Altyn Dariger award, and the Doctor of the Year award by Consilium Medicum journal. She is also a member of the National Medical Association, reflecting her active involvement in the medical community and commitment to clinical excellence.
-                    Dr. Vasilchenko focuses on accurate diagnostics, long-term treatment strategies, and a personalized, child-centered approach, helping families navigate complex pediatric conditions with confidence and clarity</p>
+                  <h5 className="text-h4 font-medium mb-6">Natalia Vasilchenko</h5>
+                  <p className="max-w-[50ch]">Dr. Natalia Vasilchenko is a board-certified physician with over 35 years of medical experience, specializing in pediatric gastroenterology, allergology, and pediatrics. She graduated from Kazakh National Medical University in 1997 and has held a senior clinical position at its Clinical Diagnostic Department since 2006.</p>
+                  <p className="max-w-[50ch] mt-4">She has pursued advanced international training at Rabin Medical Center and Assuta Medical Center in Israel, and holds highest-category certifications in Gastroenterology with Endoscopy, Pediatrics, and Allergology & Immunology — all valid through 2030. She also serves as assistant professor at KazNMU's Department of Pediatric Diseases.</p>
+                  <p className="max-w-[50ch] mt-4">Her work has been recognized with the Order of Hippocrates (2025), the Altyn Dariger Medal (2024), and Doctor of the Year by Consilium Medicum (2018). She is a member of the National Medical Association of Kazakhstan and an active participant in international medical conferences.</p>
                 </div>
               </div>
               <div className="flex justify-end">

@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 :root {
-  --background: #f0f4fa;
+  --background: #f3f6fb;
   --background-complementary: #F7F9FB;
   --foreground: #0F172A;
   --primary: #1377F7;
@@ -39,7 +39,7 @@ html {
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Source_Sans_3, Arial, Helvetica, sans-serif;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
 }
 
 .flip-x {

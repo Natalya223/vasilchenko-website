@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
-import { Source_Sans_3 } from "next/font/google";
+import { Roboto } from "next/font/google";
 import "./globals.css";
 
-const sourceSans3 = Source_Sans_3({
-  variable: "--font-source-sans-3",
+const roboto = Roboto({
+  variable: "--font-roboto",
   subsets: ["latin", "cyrillic"],
   weight: ["400", "500", "600", "700"]
 });
@@ -21,7 +21,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${sourceSans3.variable} antialiased`}
+        className={`${roboto.variable} antialiased`}
       >
         {children}
       </body>

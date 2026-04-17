@@ -1,6 +1,8 @@
 import About from "./Components/About";
+import Awards from "./Components/Awards";
+import Career from "./Components/Career";
 import Contact from "./Components/Contact";
-import Experience from "./Components/Experience";
+import Publications from "./Components/Publications";
 import Footer from "./Components/Footer";
 import Hero from "./Components/Hero";
 import Navbar from "./Components/Navbar";
@@ -13,9 +15,13 @@ export default function Home() {
       <Navbar />
       <Hero />
       <SectionSeparator small={true} />
-      <Experience />
-      <SectionSeparator />
       <About />
+      <SectionSeparator />
+      <Awards />
+      <SectionSeparator />
+      <Career />
+      <SectionSeparator />
+      <Publications />
       <SectionSeparator />
       <Testimonials />
       <SectionSeparator small={true} />
