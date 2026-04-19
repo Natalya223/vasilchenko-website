@@ -1,0 +1,129 @@
+{
+  "Meta": {
+    "title": "Natalia Vasilchenko",
+    "description": "Gastroenterologist in Almaty"
+  },
+  "Navbar": {
+    "about": "About",
+    "awards": "Awards",
+    "publications": "Publications",
+    "career": "Career",
+    "testimonials": "Testimonials",
+    "contact": "Contact",
+    "switchLocale": "RU"
+  },
+  "Hero": {
+    "tagline": "Providing compassionate care and advanced treatments to help patients live healthier, longer lives",
+    "bookButton": "Book an appointment"
+  },
+  "About": {
+    "bio1": "Dr. Natalia Vasilchenko is a board-certified physician with over 35 years of medical experience, specializing in pediatric gastroenterology, allergology, and pediatrics. She graduated from Kazakh National Medical University in 1997 and has held a senior clinical position at its Clinical Diagnostic Department since 2006.",
+    "bio2": "She has pursued advanced international training at Rabin Medical Center and Assuta Medical Center in Israel, and holds highest-category certifications in Gastroenterology with Endoscopy, Pediatrics, and Allergology & Immunology — all valid through 2030. She also serves as assistant professor at KazNMU's Department of Pediatric Diseases.",
+    "bio3": "Her work has been recognized with the Order of Hippocrates (2025), the Altyn Dariger Medal (2024), and Doctor of the Year by Consilium Medicum (2018). She is a member of the National Medical Association of Kazakhstan and an active participant in international medical conferences."
+  },
+  "Awards": {
+    "title": "Awards & Recognition",
+    "hippocrates": {
+      "name": "Order of Hippocrates",
+      "issuer": "National Medical Association of Kazakhstan",
+      "description": "Highest national honor awarded to physicians for outstanding contribution to medicine and public health"
+    },
+    "altynDariger": {
+      "name": "Altyn Dariger",
+      "issuer": "National Medical Association of Kazakhstan",
+      "description": "\"Golden Doctor\" — national award recognizing exceptional clinical achievement and long-term dedication to patient care"
+    },
+    "doctorOfYear": {
+      "name": "Doctor of the Year",
+      "issuer": "Consilium Medicum Journal",
+      "description": "Annual recognition of outstanding medical practice awarded by Kazakhstan's leading peer-reviewed medical publication"
+    }
+  },
+  "Career": {
+    "title": "Clinical Career & Training",
+    "careerHistory": "Career History",
+    "internationalTraining": "International Training",
+    "currentCertifications": "Current Certifications",
+    "medcollege": {
+      "title": "Republican Medical College, Almaty",
+      "subtitle": "Graduated with honors — Nursing, General Profile"
+    },
+    "kaznmu": {
+      "title": "Kazakh National Medical University",
+      "subtitle": "M.D., Pediatrics Faculty"
+    },
+    "polyclinic": {
+      "title": "Children's Polyclinic #17, Almaty",
+      "subtitle": "District Pediatrician"
+    },
+    "kaznmuCurrent": {
+      "title": "KazNMU — Clinical Diagnostic Department",
+      "subtitle": "Pediatric Gastroenterologist & Allergist"
+    },
+    "healthcity": {
+      "title": "HealthCity LLC · Medical Center HAK",
+      "subtitle": "Gastroenterologist"
+    },
+    "professor": {
+      "title": "KazNMU, Department of Pediatric Diseases",
+      "subtitle": "Assistant Professor"
+    },
+    "rabin2017": {
+      "title": "Advances in Gastroenterology",
+      "institution": "Rabin Medical Center — Beilinson Campus"
+    },
+    "assuta2018": {
+      "title": "Pediatric Medicine",
+      "institution": "Assuta Medical Center"
+    },
+    "rabin2019": {
+      "title": "Pulmonology — Modern Diagnostic Technologies",
+      "institution": "Rabin Medical Center — Hasharon Campus"
+    },
+    "certGastro": "Gastroenterology with Endoscopy — Highest Category (2025–2030)",
+    "certPediatrics": "Pediatrics — Highest Category (2025–2030)",
+    "certAllergy": "Allergology & Immunology (2025–2030)"
+  },
+  "Publications": {
+    "title": "Research & Publications",
+    "viewProfile": "View full profile on ORCID",
+    "thyme": "Use of Thyme Herb for the Treatment of Giardiasis",
+    "pollinosis": "A Note for General Practitioners: An Allergy Guide to Pollinosis — Triggers & Myths",
+    "nonspecific": "How to Recognize 'Nonspecific' Gastrointestinal Symptoms and Identify Disease in Time",
+    "atopicInfants": "Atopic Dermatitis in Infants Under One Year of Age",
+    "frequentlyIll": "Treatment and Preventive Strategies for Frequently Ill Children",
+    "atopicTreatment": "Treatment of Atopic Dermatitis in Children",
+    "Gastroenterology": "Gastroenterology",
+    "Allergology": "Allergology",
+    "Pediatrics": "Pediatrics",
+    "Article": "Article",
+    "Patent": "Patent"
+  },
+  "Testimonials": {
+    "title": "Testimonials",
+    "borisName": "Boris Sapoznikov, MD",
+    "borisTitle": "Head of Gastroenterology & Hepatology Unit",
+    "borisInstitution": "Rabin Medical Center — Hasharon Hospital, Israel",
+    "borisText": "During the program, Dr. Vasilchenko demonstrated herself to be a knowledgeable and highly motivated specialist in gastroenterology and endoscopy, showing great curiosity, asking many questions, and maintaining a strong level of engagement throughout. The knowledge and practical skills she acquired are successfully applied in her medical practice, improving the quality of diagnosis and treatment for her patients.",
+    "irinaName": "Irina Sokhetskaya",
+    "irinaTitle": "Patient — visiting from Canada",
+    "irinaInstitution": "Health City Clinic, Almaty",
+    "irinaText": "As a citizen of Canada, I traveled to the Health City clinic in Almaty for a comprehensive check-up. The level of care and attention I received was truly incredible. Your prescriptions and treatment were absolutely correct and helped me significantly. Thank you very much! God bless you!"
+  },
+  "Contact": {
+    "title": "Contact",
+    "address": "Address",
+    "phone": "Phone number",
+    "email": "E-mail",
+    "workHours": "Work hours",
+    "bookButton": "Book an appointment"
+  },
+  "Footer": {
+    "navigation": "Navigation",
+    "about": "About",
+    "testimonials": "Testimonials",
+    "contact": "Contact",
+    "address": "Address",
+    "workHours": "Work hours"
+  }
+}

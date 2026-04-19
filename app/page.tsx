@@ -8,24 +8,39 @@ import Hero from "./Components/Hero";
 import Navbar from "./Components/Navbar";
 import SectionSeparator from "./Components/SectionSeparator";
 import Testimonials from "./Components/Testimonials";
+import FadeIn from "./Components/FadeIn";
 
 export default function Home() {
   return (
     <>
       <Navbar />
-      <Hero />
+      <FadeIn>
+        <Hero />
+      </FadeIn>
       <SectionSeparator small={true} />
-      <About />
+      <FadeIn>
+        <About />
+      </FadeIn>
       <SectionSeparator />
-      <Awards />
+      <FadeIn>
+        <Awards />
+      </FadeIn>
       <SectionSeparator />
-      <Career />
+      <FadeIn>
+        <Career />
+      </FadeIn>
       <SectionSeparator />
-      <Publications />
+      <FadeIn>
+        <Publications />
+      </FadeIn>
       <SectionSeparator />
-      <Testimonials />
+      <FadeIn>
+        <Testimonials />
+      </FadeIn>
       <SectionSeparator small={true} />
-      <Contact />
+      <FadeIn>
+        <Contact />
+      </FadeIn>
       <SectionSeparator small={true} />
       <Footer />
     </>
