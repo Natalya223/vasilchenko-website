@@ -8,11 +8,11 @@ const navLink = "relative inline-block after:absolute after:left-0 after:bottom-
 
 export default function Navbar() {
   return (
-    <header className={`fixed max-w-[1280px] inset-x-0 mx-auto lg:mt-6 px-4 sm:px-6 lg:px-8 z-1 bg-white shadow-xs text-foreground lg:rounded-full`}>
+    <header className={`hidden lg:block fixed max-w-[1280px] inset-x-0 mx-auto lg:mt-6 px-4 sm:px-6 lg:px-8 z-1 bg-white shadow-xs text-foreground lg:rounded-full`}>
       <PageContainer>
         <nav>
           <ul className="min-h-20 flex items-center justify-center sm:justify-between">
-            <li><Link href={"/"} className="text-h6 font-medium whitespace-nowrap">Vasilchenko N.V.</Link></li>
+            <li><Link href={"/"} className="text-h6 font-medium whitespace-nowrap">Vassilchenko N.V.</Link></li>
             <div className="hidden lg:flex items-center gap-5 text-sm">
               <li className="hidden lg:list-item font-medium"><Link href={"#about"} className={navLink}>About</Link></li>
               <li className="hidden lg:list-item font-medium"><Link href={"#awards"} className={navLink}>Awards</Link></li>

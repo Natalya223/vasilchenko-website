@@ -3,6 +3,7 @@ import PageContainer from "./PageContainer";
 import SectionHeader from "./SectionHeader";
 import NavButton from "./NavButton";
 import Image from "next/image";
+import Link from "next/link";
 
 type Specialty = "Gastroenterology" | "Allergology" | "Pediatrics";
 
@@ -12,42 +13,55 @@ const specialtyStyle: Record<Specialty, string> = {
   Pediatrics: "bg-foreground/10 text-foreground/70",
 };
 
-const publications: { title: string; year: string; type: "Article" | "Patent"; specialty: Specialty }[] = [
+const publications: { title: string; year: string; link: string; type: "Article" | "Patent"; specialty: Specialty }[] = [
   {
     title: "Use of Thyme Herb for the Treatment of Giardiasis",
     year: "2025",
     type: "Patent",
     specialty: "Gastroenterology",
+    link: "https://scholar.google.com/citations?view_op=view_citation&user=orC5iyEAAAAJ&citation_for_view=orC5iyEAAAAJ:d1gkVwhDpl0C"
+  },
+  {
+    title: "Vitamin D Deficiency as a Performance Decrement Factor in Adolescents",
+    year: "2018",
+    type: "Article",
+    specialty: "Pediatrics",
+    link: "https://scholar.google.com/citations?view_op=view_citation&user=orC5iyEAAAAJ&citation_for_view=orC5iyEAAAAJ:u-x6o8ySG0sC "
   },
   {
     title: "A Note for General Practitioners: An Allergy Guide to Pollinosis — Triggers & Myths",
     year: "2025",
     type: "Article",
     specialty: "Allergology",
+    link: "https://scholar.google.com/citations?view_op=view_citation&user=orC5iyEAAAAJ&citation_for_view=orC5iyEAAAAJ:9yKSN-GCB0IC"
   },
   {
     title: "How to Recognize 'Nonspecific' Gastrointestinal Symptoms and Identify Disease in Time",
     year: "2025",
     type: "Article",
     specialty: "Gastroenterology",
+    link: "https://scholar.google.com/citations?view_op=view_citation&user=orC5iyEAAAAJ&citation_for_view=orC5iyEAAAAJ:2osOgNQ5qMEC"
   },
   {
     title: "Atopic Dermatitis in Infants Under One Year of Age",
     year: "2012",
     type: "Article",
     specialty: "Allergology",
+    link: "https://scholar.google.com/citations?view_op=view_citation&user=orC5iyEAAAAJ&citation_for_view=orC5iyEAAAAJ:qjMakFHDy7sC"
   },
   {
     title: "Treatment and Preventive Strategies for Frequently Ill Children",
     year: "2011",
     type: "Article",
     specialty: "Pediatrics",
+    link: "https://scholar.google.com/citations?view_op=view_citation&user=orC5iyEAAAAJ&citation_for_view=orC5iyEAAAAJ:IjCSPb-OGe4C"
   },
   {
     title: "Treatment of Atopic Dermatitis in Children",
     year: "2007",
     type: "Article",
     specialty: "Allergology",
+    link: "https://scholar.google.com/citations?view_op=view_citation&user=orC5iyEAAAAJ&citation_for_view=orC5iyEAAAAJ:Y0pCki6q_DkC"
   },
 ];
 
@@ -63,7 +77,7 @@ export default function Publications() {
           {/* Publication list */}
           <div className="flex flex-col gap-3">
             {publications.map((pub) => (
-              <div key={pub.title} className="group bg-white rounded-2xl shadow-[0px_5px_20px_1px] shadow-primary/15 px-6 py-4 flex items-start gap-4 hover:bg-primary duration-200 hover:scale-[1.01]">
+              <Link href={pub.link} key={pub.title} className="group bg-white rounded-2xl shadow-[0px_5px_20px_1px] shadow-primary/15 px-6 py-4 flex items-start gap-4 hover:bg-primary duration-200 hover:scale-[1.01]">
                 <div className="shrink-0 mt-0.5 text-primary group-hover:text-white">
                   {pub.type === "Patent" ? <FaScroll size={18} /> : <FaBookOpen size={18} />}
                 </div>
@@ -86,7 +100,7 @@ export default function Publications() {
                     {pub.year}
                   </span>
                 </div>
-              </div>
+              </Link>
             ))}
           </div>
 

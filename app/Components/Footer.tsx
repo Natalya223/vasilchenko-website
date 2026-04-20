@@ -36,7 +36,7 @@ export default function Footer() {
           </div>
         </div>
       </PageContainer>
-      <p className="text-xs text-center">Natalia Vasilchenko © {new Date().getFullYear()}</p>
+      <p className="text-xs text-center">Natalia Vassilchenko © {new Date().getFullYear()}</p>
       <p className="text-xs text-center pb-2">Website by Yaroslav Stupkov</p>
     </footer>
   );

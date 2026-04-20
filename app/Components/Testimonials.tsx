@@ -15,7 +15,7 @@ export default function Testimonials() {
               name="Boris Sapoznikov, MD"
               title="Head of Gastroenterology & Hepatology Unit"
               institution="Rabin Medical Center — Hasharon Hospital, Israel"
-              testimonialText="During the program, Dr. Vasilchenko demonstrated herself to be a knowledgeable and highly motivated specialist in gastroenterology and endoscopy, showing great curiosity, asking many questions, and maintaining a strong level of engagement throughout. The knowledge and practical skills she acquired are successfully applied in her medical practice, improving the quality of diagnosis and treatment for her patients."
+              testimonialText="During the program, Dr. Vassilchenko demonstrated herself to be a knowledgeable and highly motivated specialist in gastroenterology and endoscopy, showing great curiosity, asking many questions, and maintaining a strong level of engagement throughout. The knowledge and practical skills she acquired are successfully applied in her medical practice, improving the quality of diagnosis and treatment for her patients."
             />
             <TestimonialCard
               name="Irina Sokhetskaya"
